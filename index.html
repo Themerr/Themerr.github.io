@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Themerr adds theme music to Plex and Jellyfin using the community-powered ThemerrDB.">
+  <meta name="color-scheme" content="light dark">
+  <title>Themerr · LizardByte</title>
+  <link rel="canonical" href="https://themerr.lizardbyte.dev/">
+  <style>
+    :root { font-family: system-ui, sans-serif; color: #20252b; background: #f4f6f8; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100svh; display: grid; place-items: center; padding: 2rem 1rem; }
+    main { width: min(100%, 46rem); padding: clamp(1.5rem, 6vw, 4rem); border: 1px solid #d6dde4;
+      border-radius: 1.25rem; background: #fff; }
+    .eyebrow { margin: 0; color: #526273; font-size: .9rem; }
+    h1 { margin: .5rem 0 1rem; font-size: clamp(3rem, 9vw, 5rem); letter-spacing: -.05em; }
+    p { line-height: 1.7; }
+    .intro { font-size: 1.2rem; }
+    nav { display: flex; flex-wrap: wrap; gap: .75rem; margin: 2rem 0; }
+    nav a { padding: .7rem 1rem; border: 1px solid #b9cbd8; border-radius: .5rem; text-decoration: none; }
+    a { color: #00658e; text-underline-offset: .2em; }
+    a:hover { text-decoration: underline; }
+    a:focus-visible { outline: 3px solid #1383c2; outline-offset: 4px; }
+    footer { margin-top: 2rem; color: #526273; font-size: .9rem; }
+    @media (prefers-color-scheme: dark) {
+      :root { color: #e5eaf0; background: #15191d; }
+      main { background: #20262c; border-color: #3a4651; }
+      a { color: #6bc9f3; }
+      nav a { border-color: #526273; }
+      .eyebrow, footer { color: #aab9c7; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">A LizardByte project</p>
+    <h1>Themerr</h1>
+    <p class="intro">Theme music for your Plex and Jellyfin libraries.</p>
+    <p>Themerr adds theme songs to movies, TV shows, and collections using ThemerrDB,
+      our community-powered theme song database.</p>
+    <nav aria-label="Project links">
+      <a href="https://github.com/Themerr/Themerr/releases/latest">Download</a>
+      <a href="https://docs.lizardbyte.dev/projects/themerr/latest/">Documentation</a>
+      <a href="/ThemerrDB/">Explore ThemerrDB</a>
+      <a href="https://github.com/Themerr">GitHub</a>
+    </nav>
+    <p>A full product page is coming. You can find releases, documentation, and the database using the links above.</p>
+    <footer><a href="https://app.lizardbyte.dev/">LizardByte</a> ·
+      <a href="https://app.lizardbyte.dev/support">Support</a></footer>
+  </main>
+</body>
+</html>
