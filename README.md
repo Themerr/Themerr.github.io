@@ -1,4 +1,16 @@
-# Themerr website
+<div align="center">
+  <img
+    src="assets/themerr-icon.png"
+    alt="Themerr icon"
+    width="256"
+  />
+  <h1 align="center">Themerr website</h1>
+  <h4 align="center">Themerr's product website. A LizardByte project.</h4>
+</div>
+
+<div align="center">
+  <a href="https://sonarcloud.io/project/overview?id=Themerr_Themerr.github.io"><img src="https://img.shields.io/sonar/quality_gate/Themerr_Themerr.github.io.svg?server=https%3A%2F%2Fsonarcloud.io&style=for-the-badge&logo=sonarqubecloud&label=sonarcloud" alt="SonarCloud"></a>
+</div>
 
 The organization website serves the Themerr product page at <https://themerr.lizardbyte.dev/>.
 GitHub Pages publishes the `master` branch from the repository root. Keep `CNAME` and `.nojekyll` in that root.
