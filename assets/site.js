@@ -1,4 +1,5 @@
 const page = document.documentElement;
+document.querySelector('#year').textContent = new Date().getFullYear();
 const themeToggle = document.querySelector('#theme-toggle');
 const systemTheme = window.matchMedia('(prefers-color-scheme: dark)');
 let chosenTheme = page.dataset.theme;

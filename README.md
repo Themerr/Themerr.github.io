@@ -15,4 +15,6 @@ The site uses plain HTML, CSS, and JavaScript with a light/dark theme switcher. 
 
 - The [Themerr icon](https://github.com/Themerr/Themerr/blob/master/web/images/icon-default.png) retains its
   [AGPL-3.0 license](assets/licenses/AGPL-3.0.txt).
+- The LizardByte wordmark comes from [LizardByte's branding directory](https://github.com/LizardByte/.github/tree/master/branding/logos).
+  The logo was created by GitHub user [BenDev9](https://github.com/BenDev9).
 - [Manrope](assets/fonts/manrope.woff2) is distributed under the [SIL Open Font License](assets/fonts/OFL-Manrope.txt).
