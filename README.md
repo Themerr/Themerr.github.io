@@ -1,7 +1,32 @@
-# Themerr website
+<div align="center">
+  <img
+    src="assets/themerr-icon.png"
+    alt="Themerr icon"
+    width="256"
+  />
+  <h1 align="center">Themerr website</h1>
+  <h4 align="center">Themerr's product website. A LizardByte project.</h4>
+</div>
 
-The organization website serves a temporary product landing page at <https://themerr.lizardbyte.dev/>.
+<div align="center">
+  <a href="https://sonarcloud.io/project/overview?id=Themerr_Themerr.github.io"><img src="https://img.shields.io/sonar/quality_gate/Themerr_Themerr.github.io.svg?server=https%3A%2F%2Fsonarcloud.io&style=for-the-badge&logo=sonarqubecloud&label=sonarcloud" alt="SonarCloud"></a>
+</div>
+
+The organization website serves the Themerr product page at <https://themerr.lizardbyte.dev/>.
 GitHub Pages publishes the `master` branch from the repository root. Keep `CNAME` and `.nojekyll` in that root.
 
 ThemerrDB is published independently from <https://github.com/Themerr/ThemerrDB> and inherits this site's domain at
 <https://themerr.lizardbyte.dev/ThemerrDB/>. Its repository's Pages custom-domain setting stays empty.
+
+## Local preview
+
+Run `python -m http.server 8000` from the repository root and open <http://localhost:8000/>.
+The site uses plain HTML, CSS, and JavaScript with a light/dark theme switcher. It has no build step.
+
+## Assets
+
+- The [Themerr icon](https://github.com/Themerr/Themerr/blob/master/web/images/icon-default.png) retains its
+  [AGPL-3.0 license](assets/licenses/AGPL-3.0.txt).
+- The LizardByte wordmark comes from [LizardByte's branding directory](https://github.com/LizardByte/.github/tree/master/branding/logos).
+  The logo was created by GitHub user [BenDev9](https://github.com/BenDev9).
+- [Manrope](assets/fonts/manrope.woff2) is distributed under the [SIL Open Font License](assets/fonts/OFL-Manrope.txt).
